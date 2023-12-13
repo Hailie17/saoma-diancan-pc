@@ -15,10 +15,10 @@
 				<div>店铺地址:</div>
 				<div>{{item.address}}</div>
 			</div>
-			<div class="set-name">
-				<div>营业时间:</div>
-				<div>{{item.bus_hours.startTime}}——{{item.bus_hours.endTime}}</div>
-			</div>
+			<!--<div class="set-name">-->
+			<!--	<div>营业时间:</div>-->
+			<!--	<div>{{item.bus_hours.startTime}}——{{item.bus_hours.endTime}}</div>-->
+			<!--</div>-->
 			<div class="set-up-image">
 				<div>店铺logo:</div>
 				<div class="set-image">
@@ -26,7 +26,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 	</div>
 </div>
 </template>
@@ -54,7 +54,7 @@ export default{
 				new this.mytitle(this.$message,'error','服务器发生错误,请重试').funtitle()
 			}
 		}
-		
+
 	},
 	created() {
 		this.obtainshop()

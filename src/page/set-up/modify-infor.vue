@@ -65,7 +65,7 @@
 			</el-dialog>
 		</div>
 	</div>
-	
+
 	<!-- 提交 -->
 	<div class="image-button">
 		<el-button type="success" size="medium" @click="bTns(butn)" :loading="load" :disabled="load">{{butn}}</el-button>

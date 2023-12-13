@@ -1,3 +1,4 @@
+/node_modules
 /node_modules/.bin/nodemon
 /node_modules/.bin/nodemon.CMD
 /node_modules/.bin/nodemon.ps1

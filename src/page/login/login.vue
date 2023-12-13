@@ -98,8 +98,6 @@ export default {
           let ids = "1";
           localStorage.setItem("nuvmenuid", JSON.stringify(ids));
           localStorage.setItem("token", res.data.data.token);
-          this.$router.push({ name: "modify-infor" });
-          return false;
           // 查询商家信息数据库
           // 登录成功之后查询商家信息数据库，是否有还商家信息
           // 有的话就跳转到index主界面。
